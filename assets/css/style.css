@@ -7,10 +7,10 @@ html {
 }
 
 #container {
-    height: 400px;
-    width: 550px;
+    height: 600px;
+    width: 750px;
     background-color: #9DD2EA;
-    margin: 100px auto;
+    margin: 10px auto;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 4px 0px 0px #009de4;
@@ -24,7 +24,7 @@ html {
     color: #888E5F;
     padding: 11px;
     position: absolute;
-    left: 500px;
+    left: 700px;
     box-shadow: 0px 4px #9da853;
     -moz-box-shadow: 0px 4px #9da853;
     -webkit-box-shadow: 0px 4px #9da853;
@@ -49,10 +49,10 @@ html {
 }
 
 #question {
-    width: 450px;
-    height: 150px;
+    width: 650px;
+    height: 400px;
     margin: 50px auto 10px auto;
-    background-color: #9DA0EA;
+    background-color: white;
     box-shadow: 0px 4px #535aa8;
     -moz-box-shadow: 0px 4px #535aa8;
     -webkit-box-shadow: 0px 4px #535aa8;
@@ -139,13 +139,12 @@ html {
     -ms-transition: all 0.2s;
 }
 
-#timeremaining {
-    width: 152px;
+#trialsleft {
+    width: 80px;
     padding: 10px;
     position: absolute;
-    top: 395px;
-    left: 400px;
-    background-color: rgba(181,235,36,0.8);
+    background-color: #F1FF92;
+    background-color: ;
     border-radius: 3px;
     box-shadow: 0px 4px rgba(0,0,0,0.2);
     -moz-box-shadow: 0px 4px rgba(0,0,0,0.2);
@@ -165,8 +164,8 @@ html {
     text-align: center;
     text-transform: uppercase;
     position: absolute;
-    top: 100px;
-    left: 45px;
+    top: 170px;
+    left: 145px;
     z-index: 2;
     display: none;
 }
