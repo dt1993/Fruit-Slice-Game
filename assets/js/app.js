@@ -51,7 +51,7 @@ $("#fruit1").mouseover(function(){
     $("#fruit1").hide("explode", 500); //slice fruit
 
     //send new fruit
-    setTimeout(startAction, 550);
+    setTimeout(startAction, 850);
 
 });
 
