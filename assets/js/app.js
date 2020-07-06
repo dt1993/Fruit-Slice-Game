@@ -35,11 +35,26 @@ $(function(){
             //start sending fruit
             startAction();
 
-
         }
     });
 
+$("#fruit1").mouseover(function(){
+    score++;
+    $("#scorevalue").html(score); //updating score
+
+    $("#slicesound")[0].play(); //play sound
+
+    //stop fruit
+    clearInterval(action);
+
+    //hide fruit with anaimation
+    $("#fruit1").hide("explode", 500); //slice fruit
+
+    //send new fruit
+    setTimeout(startAction, 550);
+
 });
+
 
    //functions
    function addHearts (){
@@ -83,8 +98,6 @@ function startAction(){
                 //populate trials left
                 addHearts();
 
-
-
             }else{ //game over
                 playing= false;
                 $("#startreset").html("Start Game");
@@ -111,3 +124,5 @@ function stopAction(){
     clearInterval(action);
     $("#fruit1").hide();
 }
+
+});
